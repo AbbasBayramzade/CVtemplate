@@ -1,0 +1,299 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70%;
+    background-color: rgb(72, 151, 114);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: blue;
+    width: 50%;
+    height: 700px;
+}
+
+    /* **************CARD 1 codes in hear******************** */
+
+.card:nth-child(1){
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+}
+
+.card:nth-child(1) h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 70px 0 150px 0;
+    font-weight: normal;
+}
+
+.card:nth-child(1) ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    list-style-type: none;
+}
+
+.card:nth-child(1) ul li{
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    list-style-type: none;
+    background-color: transparent;
+    transition: 1s;
+}
+
+.card:nth-child(1) ul li:nth-child(1):hover{
+    background-color: rgb(255, 176, 79);
+}
+
+.card:nth-child(1) ul li:nth-child(2):hover{
+    background-color: rgb(82, 255, 79);
+}
+
+.card:nth-child(1) ul li:nth-child(3):hover{
+    background-color: rgb(79, 155, 255);
+}
+
+.card:nth-child(1) ul li:nth-child(4):hover{
+    background-color: rgb(255, 79, 217);
+}
+
+    /* ***************CARD 2 codes in hear **************/
+
+.card:nth-child(2){
+    background-color: #607d8b;
+    color: white;
+    padding: 20px;
+}
+
+.card:nth-child(2) h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 70px 0 35px 0;
+    font-weight: normal;
+}
+
+.avatar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.avatar{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.card:nth-child(2) p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: 0.8;
+}
+
+       /* ***************CARD 3 codes in hear **************/
+
+.card:nth-child(3){
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.card:nth-child(3) h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 70px 0 35px 0;
+    font-weight: normal;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0 30px;
+}
+
+.img-holder{
+    width: 50%;
+}
+
+.img-holder img{
+   width: 100%;
+   height: 100%;
+}
+
+.img-holder:nth-child(1):hover{
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.img-holder:nth-child(2):hover{
+    border: 3px solid rgb(25, 197, 16);
+}
+
+.img-holder:nth-child(3):hover{
+    border: 3px solid rgb(0, 221, 255);
+}
+
+.img-holder:nth-child(4):hover{
+    border: 3px solid rgb(241, 6, 241);
+}
+
+.img-holder:nth-child(5):hover{
+    border: 3px solid rgb(255, 0, 43);
+}
+
+.img-holder:nth-child(6):hover{
+    border: 3px solid rgb(242, 255, 0);
+}
+
+.card:nth-child(3) p{
+    text-align: center;
+    line-height: 1.7;
+}
+
+     /* ***************CARD 4 codes in hear **************/
+
+.card:nth-child(4){
+    background-color: #3f51b5;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.card:nth-child(4) h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 50px 0 35px 0;
+    font-weight: normal;
+}
+
+.card:nth-child(4) p{
+    text-align: center;
+    line-height: 1.7;
+}
+
+.card:nth-child(4) table{
+    height: 50%;
+    font-size: 15px;
+    border-collapse: collapse;
+    line-height: 1.5;
+}
+
+.card:nth-child(4) table td{
+    padding: 10px 15px;
+}
+
+.card:nth-child(4) table tbody tr:nth-child(1) td:nth-child(2),
+.card:nth-child(4) table tbody tr:nth-child(1) td:nth-child(3),
+.card:nth-child(4) table tbody tr:nth-child(3) td:nth-child(2),
+.card:nth-child(4) table tbody tr:nth-child(3) td:nth-child(3)  {
+    vertical-align: text-top;
+    border-style: none;
+}
+
+.card:nth-child(4) table tbody tr:nth-child(1), .card:nth-child(4) table tbody tr:nth-child(3), .card:nth-child(4) table tbody tr:nth-child(5){
+    background-color: white;
+    color: black;
+}
+
+     /* ***************CARD 5 codes in hear **************/
+
+.card:nth-child(5){
+    background-color:  #616161;
+    color: white;
+}
+
+.card:nth-child(5) h2{
+    text-align: center;
+    font-size: 35px;
+    margin: 100px 0 165px 0;
+    font-weight: normal;
+}
+
+.card:nth-child(5) p{
+    text-align: center;
+    margin: 25px 0 25px 0;
+    font-size: 17px;
+}
+
+      /* ***************CARD 6 codes in hear **************/
+
+.card:nth-child(6){
+    background-color: #00b297;
+    padding: 100px 30px 150px;
+} 
+
+.card:nth-child(6) h2{
+    font-weight:normal;
+    font-size: 35px;
+    color: white;
+}
+
+.card:nth-child(6) p{
+    font-size: 14px;
+    color: #3d5c6c;
+    margin: 30px 0 20px;
+}
+
+.card:nth-child(6) form{
+    background-color: white;
+    padding: 50px 0 65px 20px ;
+}
+
+.card:nth-child(6) button{
+    padding: 10px 20px;
+    background-color: #00b297;
+    font-size: 17px;
+    color: white;
+    border: none;
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.card:nth-child(6) button:hover{
+    background-color: rgb(214, 190, 214) ;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:nth-child(6) form input{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 14px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+      /******************* FOOTER codes in hear *****************/
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    padding: 40px 0 0 20px;
+    letter-spacing: 1px;
+}
+
+.footer span{
+    text-decoration: underline;
+}
